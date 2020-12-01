@@ -68,11 +68,11 @@
   <main role="main" class="pl-3">
 
 
-      <h2>{{ post.post_title }}</h2>
+      <h2 class="pt-3">{{ post.post_title }}</h2>
       <br>
       <img src="{{ post.post_image.url }}" height="500" width="500" class="img-fluid">
       <br>
-      <p> {{ post.post_text }}</p>
+      <p> {{ post.post_fulltext }}</p>
       {{ post.post_date }}
       <br>
       <br>
